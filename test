@@ -1,0 +1,26 @@
+local playerMouse = game:GetService('Players').LocalPlayer:GetMouse()
+
+local Material = Enum.Material.CorrodedMetal
+local Transparency = 9
+
+local Tool = Instance.new('Tool', game:GetService('Players').LocalPlayer.Backpack)
+Tool.RequiresHandle = false
+Tool.CanBeDropped = false
+Tool.Name = 'Tool'
+
+for i,v in pairs(game:GetService('Workspace'):GetDescendants()) do
+    if v:IsA('RemoteEvent') and v.Name == 'Lights_FE' or v.Name == 'FE_Lights' then
+        Tool.Activated:Connect(function()
+            local args = {
+                [1] = 'UpdateLight',
+                [2] = playerMouse.Target,
+                [3] = Material,
+                [4] = BrickColor.new(1001),
+                [5] = Transparency,
+                [6] = true,
+                [7] = 15
+            }
+            v:FireServer(unpack(args))
+        end)
+    end
+end
