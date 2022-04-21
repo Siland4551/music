@@ -1,0 +1,806 @@
+local NoxyHarked = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local TextButton_5 = Instance.new("TextButton")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local TextButton_6 = Instance.new("TextButton")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local TextButton_7 = Instance.new("TextButton")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local TextButton_8 = Instance.new("TextButton")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local TextButton_9 = Instance.new("TextButton")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local TextButton_10 = Instance.new("TextButton")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local TextButton_11 = Instance.new("TextButton")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local TextButton_12 = Instance.new("TextButton")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+local TextButton_13 = Instance.new("TextButton")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+local TextButton_14 = Instance.new("TextButton")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local TextButton_15 = Instance.new("TextButton")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+local TextButtonAlternative = Instance.new("TextButton")
+local TextButtonAlternative1 = Instance.new("TextButton")
+local username = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local slock = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton_16 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextButton_17 = Instance.new("TextButton")
+
+NoxyHarked.Name = "hub"
+NoxyHarked.Parent = game.CoreGui
+NoxyHarked.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = NoxyHarked
+Frame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Frame.BackgroundTransparency = 0.300
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0659999996, 0, 0.333000004, 0)
+Frame.Size = UDim2.new(0.186000004, 0, 0.474000007, 0)
+Frame.Active = true
+Frame.Draggable = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton.BackgroundTransparency = 0.500
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0273037553, 0, 0.247826353, 0)
+TextButton.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton.Font = Enum.Font.SourceSansLight
+TextButton.Text = "Ban"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 23.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton.TextWrapped = true
+
+UITextSizeConstraint.Parent = TextButton
+UITextSizeConstraint.MaxTextSize = 23
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_2.BackgroundTransparency = 0.500
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.515358388, 0, 0.247826353, 0)
+TextButton_2.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_2.Font = Enum.Font.SourceSansLight
+TextButton_2.Text = "Btools"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 23.000
+TextButton_2.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_2.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = TextButton_2
+UITextSizeConstraint_2.MaxTextSize = 23
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.901023865, 0, 0.00235909689, 0)
+TextButton_3.Size = UDim2.new(0.0989761129, 0, 0.0552884601, 0)
+TextButton_3.Font = Enum.Font.SourceSansLight
+TextButton_3.Text = "X"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 23.000
+TextButton_3.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_3.TextWrapped = true
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_4.BackgroundTransparency = 0.500
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.0273037553, 0, 0.348786414, 0)
+TextButton_4.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_4.Font = Enum.Font.SourceSansLight
+TextButton_4.Text = "NoLegs"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 23.000
+TextButton_4.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_4.TextWrapped = true
+
+UITextSizeConstraint_3.Parent = TextButton_4
+UITextSizeConstraint_3.MaxTextSize = 23
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_5.BackgroundTransparency = 0.500
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.51877141, 0, 0.451441914, 0)
+TextButton_5.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_5.Font = Enum.Font.SourceSansLight
+TextButton_5.Text = "Creeper"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 23.000
+TextButton_5.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_5.TextWrapped = true
+
+UITextSizeConstraint_4.Parent = TextButton_5
+UITextSizeConstraint_4.MaxTextSize = 23
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_6.BackgroundTransparency = 0.500
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.0273037553, 0, 0.148993716, 0)
+TextButton_6.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_6.Font = Enum.Font.SourceSansLight
+TextButton_6.Text = "Kill"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 23.000
+TextButton_6.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_6.TextWrapped = true
+
+UITextSizeConstraint_5.Parent = TextButton_6
+UITextSizeConstraint_5.MaxTextSize = 23
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_7.BackgroundTransparency = 0.500
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.515358388, 0, 0.148993716, 0)
+TextButton_7.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_7.Font = Enum.Font.SourceSansLight
+TextButton_7.Text = "Kick"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 23.000
+TextButton_7.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_7.TextWrapped = true
+
+UITextSizeConstraint_6.Parent = TextButton_7
+UITextSizeConstraint_6.MaxTextSize = 23
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_8.BackgroundTransparency = 0.500
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.0307166725, 0, 0.767486274, 0)
+TextButton_8.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_8.Font = Enum.Font.SourceSansLight
+TextButton_8.Text = "Bald"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 23.000
+TextButton_8.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_8.TextWrapped = true
+
+UITextSizeConstraint_7.Parent = TextButton_8
+UITextSizeConstraint_7.MaxTextSize = 23
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_9.BackgroundTransparency = 0.500
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0.0307167247, 0, 0.451441914, 0)
+TextButton_9.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_9.Font = Enum.Font.SourceSansLight
+TextButton_9.Text = "Blockhead"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 23.000
+TextButton_9.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_9.TextWrapped = true
+
+UITextSizeConstraint_8.Parent = TextButton_9
+UITextSizeConstraint_8.MaxTextSize = 23
+
+TextButton_10.Parent = Frame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_10.BackgroundTransparency = 0.500
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0.0307167247, 0, 0.661007822, 0)
+TextButton_10.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_10.Font = Enum.Font.SourceSansLight
+TextButton_10.Text = "Ragdoll"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 23.000
+TextButton_10.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_10.TextWrapped = true
+
+UITextSizeConstraint_9.Parent = TextButton_10
+UITextSizeConstraint_9.MaxTextSize = 23
+
+TextButton_11.Parent = Frame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_11.BackgroundTransparency = 0.500
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(0.51877141, 0, 0.767486274, 0)
+TextButton_11.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_11.Font = Enum.Font.SourceSansLight
+TextButton_11.Text = "RAnims"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 23.000
+TextButton_11.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_11.TextWrapped = true
+
+UITextSizeConstraint_10.Parent = TextButton_11
+UITextSizeConstraint_10.MaxTextSize = 23
+
+TextButton_12.Parent = Frame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_12.BackgroundTransparency = 0.500
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0.51877141, 0, 0.556224704, 0)
+TextButton_12.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_12.Font = Enum.Font.SourceSansLight
+TextButton_12.Text = "Faceless"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 23.000
+TextButton_12.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_12.TextWrapped = true
+
+UITextSizeConstraint_11.Parent = TextButton_12
+UITextSizeConstraint_11.MaxTextSize = 23
+
+TextButton_13.Parent = Frame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_13.BackgroundTransparency = 0.500
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(0.0307167247, 0, 0.556224704, 0)
+TextButton_13.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_13.Font = Enum.Font.SourceSansLight
+TextButton_13.Text = "NoLimbs"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextScaled = true
+TextButton_13.TextSize = 23.000
+TextButton_13.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_13.TextWrapped = true
+
+UITextSizeConstraint_12.Parent = TextButton_13
+UITextSizeConstraint_12.MaxTextSize = 23
+
+TextButton_14.Parent = Frame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_14.BackgroundTransparency = 0.500
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(0.515358388, 0, 0.348786414, 0)
+TextButton_14.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_14.Font = Enum.Font.SourceSansLight
+TextButton_14.Text = "Naked"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextScaled = true
+TextButton_14.TextSize = 23.000
+TextButton_14.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_14.TextWrapped = true
+
+UITextSizeConstraint_13.Parent = TextButton_14
+UITextSizeConstraint_13.MaxTextSize = 23
+
+TextButton_15.Parent = Frame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_15.BackgroundTransparency = 0.500
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(0.51877141, 0, 0.661007822, 0)
+TextButton_15.Size = UDim2.new(0.457337886, 0, 0.0817307681, 0)
+TextButton_15.Font = Enum.Font.SourceSansLight
+TextButton_15.Text = "Sink"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextScaled = true
+TextButton_15.TextSize = 23.000
+TextButton_15.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_15.TextWrapped = true
+
+UITextSizeConstraint_14.Parent = TextButton_15
+UITextSizeConstraint_14.MaxTextSize = 23
+
+TextButtonAlternative.Name = "TextButtonAlternative"
+TextButtonAlternative.Parent = Frame
+TextButtonAlternative.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButtonAlternative.BackgroundTransparency = 0.500
+TextButtonAlternative.BorderSizePixel = 0
+TextButtonAlternative.Position = UDim2.new(0.0307167228, 0, 0.870147586, 0)
+TextButtonAlternative.Size = UDim2.new(0.194539249, 0, 0.0793269202, 0)
+TextButtonAlternative.Visible = false
+TextButtonAlternative.Font = Enum.Font.SourceSansLight
+TextButtonAlternative.Text = "SLOCK"
+TextButtonAlternative.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButtonAlternative.TextScaled = true
+TextButtonAlternative.TextSize = 23.000
+TextButtonAlternative.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButtonAlternative.TextWrapped = true
+
+TextButtonAlternative1.Name = "TextButtonAlternative1"
+TextButtonAlternative1.Parent = Frame
+TextButtonAlternative1.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButtonAlternative1.BackgroundTransparency = 0.500
+TextButtonAlternative1.BorderSizePixel = 0
+TextButtonAlternative1.Position = UDim2.new(0.0307167228, 0, 0.870147586, 0)
+TextButtonAlternative1.Size = UDim2.new(0.194539249, 0, 0.0793269202, 0)
+TextButtonAlternative1.Font = Enum.Font.SourceSansLight
+TextButtonAlternative1.Text = "SLOCK"
+TextButtonAlternative1.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButtonAlternative1.TextScaled = true
+TextButtonAlternative1.TextSize = 23.000
+TextButtonAlternative1.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButtonAlternative1.TextWrapped = true
+
+username.Name = "username"
+username.Parent = Frame
+username.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+username.BackgroundTransparency = 0.500
+username.BorderSizePixel = 0
+username.Position = UDim2.new(0.242320821, 0, 0.871379435, 0)
+username.Size = UDim2.new(0.733788371, 0, 0.0793269202, 0)
+username.Font = Enum.Font.SourceSansLight
+username.PlaceholderColor3 = Color3.fromRGB(180, 180, 180)
+username.Text = ""
+username.TextColor3 = Color3.fromRGB(255, 255, 255)
+username.TextScaled = true
+username.TextSize = 23.000
+username.TextWrapped = true
+username.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.156049609, 0, -0.0145196915, 0)
+TextLabel.Size = UDim2.new(0.682593882, 0, 0.0985576957, 0)
+TextLabel.Font = Enum.Font.SourceSansLight
+TextLabel.Text = "hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 45.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.00269447989, 0, 0.0861576945, 0)
+TextLabel_2.Size = UDim2.new(0.996587038, 0, 0.0504807681, 0)
+TextLabel_2.Font = Enum.Font.SourceSansLight
+TextLabel_2.Text = "Commands/Scripts by 8bn , UI by 8bn"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 1.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextLabel_2.TextStrokeTransparency = 0.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0177833121, 0, 0.952471256, 0)
+TextLabel_3.Size = UDim2.new(0.60750854, 0, 0.0504807681, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Replication Queue: 0"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 13.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextLabel_3.TextWrapped = true
+
+slock.Name = "slock"
+slock.Parent = Frame
+slock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+slock.BackgroundTransparency = 1.000
+slock.Position = UDim2.new(0.601401031, 0, 0.952471316, 0)
+slock.Size = UDim2.new(0.365187705, 0, 0.0504807681, 0)
+slock.Font = Enum.Font.SourceSans
+slock.Text = "SLOCK: false"
+slock.TextColor3 = Color3.fromRGB(255, 0, 0)
+slock.TextScaled = true
+slock.TextSize = 13.000
+slock.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+slock.TextWrapped = true
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Frame_2.BackgroundTransparency = 0.300
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(1.02642739, 0, 0.000561732566, 0)
+Frame_2.Size = UDim2.new(0.527789176, 0, 0.305980414, 0)
+Frame_2.Visible = false
+
+TextLabel_4.Parent = Frame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0, 0, 0.00944115967, 0)
+TextLabel_4.Size = UDim2.new(0.999999702, 0, 0.183850229, 0)
+TextLabel_4.Font = Enum.Font.SourceSansLight
+TextLabel_4.Text = "Commands:"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 1.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextLabel_4.TextStrokeTransparency = 0.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Frame_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.191485912, 0)
+TextLabel_5.Size = UDim2.new(0.999999702, 0, 0.186604932, 0)
+TextLabel_5.Font = Enum.Font.SourceSansLight
+TextLabel_5.Text = "all = everyone"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 1.000
+TextLabel_5.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextLabel_5.TextStrokeTransparency = 0.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = Frame_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.112993963, 0, 0.37809068, 0)
+TextLabel_6.Size = UDim2.new(0.770440042, 0, 0.178990319, 0)
+TextLabel_6.Font = Enum.Font.SourceSansLight
+TextLabel_6.Text = "(on server)"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 1.000
+TextLabel_6.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextLabel_6.TextStrokeTransparency = 0.000
+TextLabel_6.TextWrapped = true
+
+TextButton_16.Parent = Frame_2
+TextButton_16.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_16.BackgroundTransparency = 1.000
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(0.881596446, 0, 0.0392451994, 0)
+TextButton_16.Size = UDim2.new(0.0989761055, 0, 0.118312716, 0)
+TextButton_16.Font = Enum.Font.SourceSansLight
+TextButton_16.Text = "X"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextSize = 23.000
+TextButton_16.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_16.TextWrapped = true
+
+TextLabel_7.Parent = Frame_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0, 0, 0.589999974, 0)
+TextLabel_7.Size = UDim2.new(0.999999702, 0, 0.183850229, 0)
+TextLabel_7.Font = Enum.Font.SourceSansLight
+TextLabel_7.Text = "Discord:"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 1.000
+TextLabel_7.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextLabel_7.TextStrokeTransparency = 0.000
+TextLabel_7.TextWrapped = true
+
+TextLabel_8.Parent = Frame_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0, 0, 0.751435459, 0)
+TextLabel_8.Size = UDim2.new(0.999999702, 0, 0.186604932, 0)
+TextLabel_8.Font = Enum.Font.SourceSansLight
+TextLabel_8.Text = "8bn#4573"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 1.000
+TextLabel_8.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextLabel_8.TextStrokeTransparency = 0.000
+TextLabel_8.TextWrapped = true
+
+TextButton_17.Parent = Frame
+TextButton_17.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+TextButton_17.BackgroundTransparency = 1.000
+TextButton_17.BorderSizePixel = 0
+TextButton_17.Position = UDim2.new(-0.00129961967, 0, 0.0049163145, 0)
+TextButton_17.Size = UDim2.new(0.0989761129, 0, 0.0552884601, 0)
+TextButton_17.Font = Enum.Font.SourceSansLight
+TextButton_17.Text = "?"
+TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.TextSize = 23.000
+TextButton_17.TextStrokeColor3 = Color3.fromRGB(122, 122, 122)
+TextButton_17.TextWrapped = true
+
+-- Scripts:
+
+local function UMXXXNB_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v)
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Players')[plr])
+		end
+	end)
+end
+coroutine.wrap(UMXXXNB_fake_script)()
+local function YBGLSXP_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		local tool = Instance.new('Tool', game.Players.LocalPlayer.Backpack)
+		tool.RequiresHandle = false
+		tool.TextureId = 'http://www.roblox.com/asset/?id=7298715637'
+		tool.Name = 'Btools'
+		tool.Activated:connect(function()
+			game.ReplicatedStorage.DeleteCar:FireServer(game.Players.LocalPlayer:GetMouse().Target)
+		end)
+	end)
+end
+coroutine.wrap(YBGLSXP_fake_script)()
+local function HFDPRI_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(HFDPRI_fake_script)()
+local function GPGUDQA_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character["Left Leg"])
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character["Right Leg"])
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr]["Left Leg"])
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr]["Right Leg"])
+		end
+	end)
+end
+coroutine.wrap(GPGUDQA_fake_script)()
+local function TAHLCC_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character["Right Arm"])
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character['Left Arm'])
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character.Head.Mesh)
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr]['Left Arm'])
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr]["Right Arm"])
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr].Head.Mesh)
+		end
+	end)
+end
+coroutine.wrap(TAHLCC_fake_script)()
+local function SPEEXD_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character.Head)
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr].Head)
+		end
+	end)
+end
+coroutine.wrap(SPEEXD_fake_script)()
+local function CQAP_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v)
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Players')[plr])
+		end
+	end)
+end
+coroutine.wrap(CQAP_fake_script)()
+local function OGRKTW_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,l in pairs(game:service('Workspace'):GetDescendants()) do
+				if l.ClassName == "Accessory" then
+					game:service('ReplicatedStorage').DeleteCar:FireServer(l)
+				end
+			end
+		else
+			for o,v in pairs(game:GetService("Workspace")[plr]:GetDescendants()) do
+				if v.ClassName == "Accessory" then
+					game:service('ReplicatedStorage').DeleteCar:FireServer(v)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(OGRKTW_fake_script)()
+local function LUPKYNH_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character.Head.Mesh)
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr].Head.Mesh)
+		end
+	end)
+end
+coroutine.wrap(LUPKYNH_fake_script)()
+local function VAGCHGO_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character.Humanoid)
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr].Humanoid)
+		end
+	end)
+end
+coroutine.wrap(VAGCHGO_fake_script)()
+local function KVAA_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character.Animate)
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr].Animate)
+		end
+	end)
+end
+coroutine.wrap(KVAA_fake_script)()
+local function XSYAHEE_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character.Head.face)
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr].Head.face)
+		end
+	end)
+end
+coroutine.wrap(XSYAHEE_fake_script)()
+local function THZBTE_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character["Right Arm"])
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character['Left Arm'])
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character['Right Leg'])
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character['Left Leg'])
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr]['Left Arm'])
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr]["Right Arm"])
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr]["Right Leg"])
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr]["Left Leg"])
+		end
+	end)
+end
+coroutine.wrap(THZBTE_fake_script)()
+local function DXQCJPF_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character.Shirt)
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character.Pants)
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr].Shirt)
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr].Pants)
+		end
+	end)
+end
+coroutine.wrap(DXQCJPF_fake_script)()
+local function CIUMORW_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = script.Parent.Parent.username.Text
+		if string.lower(plr) == 'all' then
+			for i,v in pairs(game:service('Players'):GetPlayers()) do
+				game:service('ReplicatedStorage').DeleteCar:FireServer(v.Character.HumanoidRootPart)
+			end
+		else
+			game:service('ReplicatedStorage').DeleteCar:FireServer(game:service('Workspace')[plr].HumanoidRootPart)
+		end
+	end)
+end
+coroutine.wrap(CIUMORW_fake_script)()
+local function LXYZIQ_fake_script() -- TextButtonAlternative.LocalScript 
+	local script = Instance.new('LocalScript', TextButtonAlternative)
+
+	_G.slock = false
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		while _G.slock == true do wait()
+			game:GetService('Players').PlayerAdded:Connect(function(plr)
+				game:GetService('ReplicatedStorage').DeleteCar:FireServer(plr)
+			end)
+		end
+		script.Parent.Parent.slock.Text = 'SLOCK: false'
+		script.Parent.Parent.TextButtonAlternative1.Visible = true
+		script.Parent.Visible = false
+	end)
+end
+coroutine.wrap(LXYZIQ_fake_script)()
+local function NMZKUIP_fake_script() -- TextButtonAlternative1.LocalScript 
+	local script = Instance.new('LocalScript', TextButtonAlternative1)
+
+	_G.slock = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		while _G.slock == true do wait()
+			game:GetService('Players').PlayerAdded:Connect(function(plr)
+				game:GetService('ReplicatedStorage').DeleteCar:FireServer(plr)
+			end)
+		end
+		script.Parent.Parent.slock.Text = 'SLOCK: true'
+		script.Parent.Visible = false
+		script.Parent.Parent.TextButtonAlternative.Visible = true
+	end)
+end
+coroutine.wrap(NMZKUIP_fake_script)()
+local function LAUQGGP_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(LAUQGGP_fake_script)()
+local function XQCRCEV_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Frame.Visible = true
+	end)
+end
+coroutine.wrap(XQCRCEV_fake_script)()
