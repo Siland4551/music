@@ -1,0 +1,24 @@
+getgenv().Farmando = false
+
+local LocalPlayer = game:GetService('Players').LocalPlayer
+local Character = LocalPlayer['Character']
+local HumanoidRootPart = Character:FindFirstChild('HumanoidRootPart')
+local ProximityPrompt,PartPos,Entrega
+
+while Farmando do
+    for i,v in next, workspace:GetDescendants() do 
+        if v.Name:match('PegarBolsa') and v:IsA('BasePart') then
+            PartPos = v.CFrame
+            local Prox = v:FindFirstChildOfClass('ProximityPrompt')
+            ProximityPrompt = Prox
+        elseif v.Name == 'SensorEntrega' and v:IsA('BasePart') then 
+            Entrega = v 
+        end
+    end
+    HumanoidRootPart.CFrame = PartPos + Vector3.new(-6,1,0)
+    task.wait(1)
+    fireproximityprompt(ProximityPrompt)
+    task.wait(0.3) 
+    HumanoidRootPart.CFrame = Entrega.CFrame
+    task.wait(7)
+end
