@@ -1,0 +1,12 @@
+local A_1 = 
+{
+    [1] = "", 
+    [2] = "Skyline", 
+    [3] = "Group1", 
+    [4] = 0, 
+    [5] = 19, 
+    [6] = -120222222220000
+}
+local A_2 = 47268
+local Event = game:GetService("ReplicatedStorage").Events.buyVehicle
+Event:FireServer(A_1, A_2)
