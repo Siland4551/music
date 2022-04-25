@@ -1,0 +1,16 @@
+	function recurse(instance)
+		if instance:IsA("Tool") or instance:IsA("HopperBin") then
+			print(instance:GetFullName())
+			if workspace.FilteringEnabled == false then
+				c = instance:Clone()
+				c.Parent = game.Players.LocalPlayer.Backpack
+			else
+				instance.Parent = game.Players.LocalPlayer.Backpack
+			end
+		end
+		for _, child in ipairs(instance:GetChildren()) do
+			recurse(child)
+		end
+	end
+	recurse(game)
+end
